@@ -5,30 +5,48 @@
       "GZLlFa7vasdT6EyhSLnwEmNeRrZ2": {
         "type": "object",
         "properties": {
+          "age": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "height": {
+            "type": "string"
+          },
           "image": {
             "type": "string",
             "format": "uri"
           },
+          "movie": {
+            "type": "string"
+          },
           "name": {
-            "type": "string",
-            "pattern": "^Connor\\(URI\\)$"
+            "type": "string"
           }
         },
-        "required": ["image", "name"]
+        "required": ["age", "height", "image", "movie", "name"]
       },
       "RkehyBiYWEdtY4dbf5JPDDAhbXO2": {
         "type": "object",
         "properties": {
+          "age": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "height": {
+            "type": "string"
+          },
           "image": {
             "type": "string",
             "format": "uri"
           },
+          "movie": {
+            "type": "string"
+          },
           "name": {
-            "type": "string",
-            "pattern": "^Connor\\(personal\\)$"
+            "type": "string"
           }
         },
-        "required": ["image", "name"]
+        "required": ["age", "height", "image", "movie", "name"]
       },
       "highScore": {
         "type": "integer"
