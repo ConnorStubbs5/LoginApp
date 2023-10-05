@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3718368379097546/9084197889",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -1,
+                "ParentId": "b49bd10a-db7b-4fd6-8d39-a070ec530635",
+                "Y": 632.03125,
+                "RelativeX": -1,
+                "RelativeY": 632,
+                "position": "absolute",
+                "edgeOffsets": 632.03125,
+                "style": {
+                    "position": "absolute",
+                    "left": "25.466666666666665%",
+                    "top": "85.1621064467766%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "d343452f-00ba-4125-96ae-1f36b683bd58",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
@@ -67,13 +97,13 @@
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
                 "TextAlign": "center",
-                "Height": 30,
-                "Width": 302,
+                "Height": 32,
+                "Width": 304,
                 "Visible": true,
-                "X": 49,
-                "Y": 549,
-                "RelativeX": 49,
-                "RelativeY": 549,
+                "X": 50,
+                "Y": 550,
+                "RelativeX": 50,
+                "RelativeY": 550,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -115,7 +145,7 @@
                 },
                 "ParentId": "b49bd10a-db7b-4fd6-8d39-a070ec530635",
                 "position": "absolute",
-                "edgeOffsets": 549,
+                "edgeOffsets": 550,
                 "children": ""
             },
             "children": [],
@@ -1515,13 +1545,13 @@
             "properties": {
                 "Picture": "connorgram-low-resolution-logo-color-on-transparent-background.png",
                 "resizeMode": "stretch",
-                "Height": 72,
-                "Width": 279,
+                "Height": 43,
+                "Width": 223,
                 "Visible": true,
-                "X": 58,
-                "Y": 584,
-                "RelativeX": 58,
-                "RelativeY": 584,
+                "X": 75,
+                "Y": 580,
+                "RelativeX": 75,
+                "RelativeY": 580,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -1548,7 +1578,7 @@
                 "capInsets": {},
                 "ParentId": "25f756c7-15a9-433d-8433-9d61ad8d2e6a",
                 "position": "absolute",
-                "edgeOffsets": 584
+                "edgeOffsets": 580
             },
             "children": [],
             "id": "e74a7db0-1b05-433c-aaa4-62d6dffb3b02",
